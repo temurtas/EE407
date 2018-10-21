@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % HW Template
 % LaTeX Template
@@ -217,8 +218,8 @@
 			
 			$$	F_{Net}~=~m\ddot{x}~=~F-b\dot{x}-kx	$$
 			
-			Choosing x = ${[x~~\dot{x}]}^T$ and $ y = [1~~0] $x, we can build our Space-State Model for the system as 
-			$$ \dot{x}~=~Ax+Bu  ~~ \& ~~  y~=~Cx+Du			$$
+			Choosing $\underline{x} = {[x~~\dot{x}]}^T$ and $ \underline{y} = [1~~0] $x, we can build our Space-State Model for the system as 
+			$$  \underline{\dot{x}}~=~Ax+Bu  ~~ \& ~~  \underline{y}~=~Cx+Du			$$
 			
 			\[
 			\begin{bmatrix}
@@ -231,7 +232,7 @@
     			-k/m & -b/m
 			\end{bmatrix}			
 			\begin{bmatrix}
-   				c \\
+   				x \\
    			 	\dot{x}
 			\end{bmatrix}
 			+
@@ -263,7 +264,7 @@
 				\begin{figure}[h]
 					\center
 					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/1cy}
+					\includegraphics[width=0.8\unitlength]{images/1cey}
 					\caption{\label{fig:1c} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 1N/m }
 				\end{figure}
 			
@@ -273,7 +274,7 @@
 			\begin{figure}[h]
 				\center
 				\setlength{\unitlength}{\textwidth} 
-				\includegraphics[width=0.8\unitlength]{images/1c1y}
+				\includegraphics[width=0.8\unitlength]{images/1c1ey}
 				\caption{\label{fig:1c1} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 0.2N/m }
 			\end{figure}
 			
@@ -284,7 +285,7 @@
 			\begin{figure}[H]
 				\center
 				\setlength{\unitlength}{\textwidth} 
-				\includegraphics[width=0.8\unitlength]{images/1c2y}
+				\includegraphics[width=0.8\unitlength]{images/1c2ey}
 				\caption{\label{fig:1c2} The System Response for MSD as m = 10kg, b = 0.2Ns/m, k = 1N/m }
 			\end{figure}
 			
@@ -293,13 +294,14 @@
 			\begin{figure}[H]
 				\center
 				\setlength{\unitlength}{\textwidth} 
-				\includegraphics[width=0.8\unitlength]{images/1c3y}
+				\includegraphics[width=0.8\unitlength]{images/1c3ey}
 				\caption{\label{fig:1c3} The System Response for MSD as m = 1kg, b = 2Ns/m, k = 1N/m }
 			\end{figure}	
 			
 		\end{enumerate}			
 			
-			\item 	d
+			\item 	In this part, the system response of the MSD is observed when an input force are applied for certain time. We observe that the input force increases the output which is position as expected.
+
 				\begin{figure}[H]
 					\center
 					\setlength{\unitlength}{\textwidth} 
@@ -310,22 +312,22 @@
 				\begin{figure}[H]
 					\center
 					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/1d2}
+					\includegraphics[width=0.8\unitlength]{images/1d2ey}
 					\caption{\label{fig:1d2} The System Response for MSD as the Input Changes at t=20 s }
 				\end{figure}
 				
-			\item 	e
+			\item 	\todo{don't know really}
 				
 				
 				
 			
 			
-			\item 	f
+			\item 	The difference between simulation usnig fixed step and varying step can be clearly seen at \textit{Figure~\ref{fig:varyfixed}}. The simulation result looks smoother when the fixed step is used.
 			
 				\begin{figure}[H]
 					\center
 					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/1f}
+					\includegraphics[width=0.8\unitlength]{images/1fey}
 					\caption{\label{fig:1f} The System Response for MSD with Desired Parameters in Q1f  }
 				\end{figure}
 				
@@ -334,26 +336,81 @@
 					\centering
 					\begin{subfigure}{.5\textwidth}
   						\centering
-  						\includegraphics[width=0.48\unitlength]{images/1d22}
+  						\includegraphics[width=0.48\unitlength]{images/1d22ey}
   						\caption{\label{fig:vary} Simulation with Variable Step }
 					\end{subfigure}%
 					\begin{subfigure}{.5\textwidth}
   						\centering
-						\includegraphics[width=0.48\unitlength]{images/1f2}
+						\includegraphics[width=0.48\unitlength]{images/1f2ey}
   						\caption{\label{fig:fixed} Simulation with Fixed Step}
 					\end{subfigure}
-					\caption{\label{fig:calisandegree} Simulation with Variable and Fixed Step   }
+					\caption{\label{fig:varyfixed} Simulation with Variable and Fixed Step   }
 				\end{figure}
 				
-		\end{enumerate}
+		\end{enumerate}\-\\
 	
 	
-	\item 2. soru
+	\item The system can be modelled mathematically as
+
+		$$	mL^2\ddot{\theta}=-c\dot{\theta}-mgLsin(\theta)+u	$$	
+	
+	where u is the input and it can be transferred to Laplace domain in order to put it in a block diagram for as 
+	
+	$$	mL^2s^2\theta=-cs\theta-mgLsin(\theta)+u	$$
+
+	assuming that $ \mathcal{L}\{mgLsin(\theta)\}~=~mgLsin(\theta)	$ around certain $\theta$.
+	
+	
 		\begin{enumerate}
-			\item a
-			\item b
-			\item c	
-			\item d
+			\item Simulink Model for the Propeller Levitated Arm can be seen at \textit{Figure~\ref{fig:2a}} and its more compact version can be seen at \textit{Figure~\ref{fig:2a2}}.
+			
+				\begin{figure}[H]
+					\center
+					\setlength{\unitlength}{\textwidth} 
+					\includegraphics[width=0.8\unitlength]{images/2a}
+					\caption{\label{fig:2a} Simulink Model for the Propeller Levitated Arm }
+				\end{figure} 
+				
+				\begin{figure}[H]
+					\center
+					\setlength{\unitlength}{\textwidth} 
+					\includegraphics[width=0.8\unitlength]{images/2a2}
+					\caption{\label{fig:2a2} Simulink Model for the Propeller Levitated Arm using Subsystems}
+				\end{figure} 
+
+			
+			\-\\
+			\item  
+				\begin{itemize}
+					\item X represents $\ddot{\theta}$ 
+					\item Y represents $\dot{\theta}$ and 
+					\item Z represents $\theta$	
+				\end{itemize}							
+			
+			\item Around $\theta$ values that satisfies
+				$$	\mathcal{L}\{mgLsin(\theta)\}~=~mgLsin(\theta)	$$	
+			\item Simulation results for the system as $F~=~14Nm$ and as $15Nm$ can be seen at \textit{Figures~\ref{fig:2d2} and \ref{fig:2d1}} respectively.
+			
+			\todo{why}
+			
+				\begin{figure}[H]
+					\center
+					\setlength{\unitlength}{\textwidth} 
+					\includegraphics[width=0.8\unitlength]{images/2d2}
+					\caption{\label{fig:2d2} The System Response for PLA for m = 1,L =2, g = 9.81, c = 0:5 and input force=14}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\center
+					\setlength{\unitlength}{\textwidth} 
+					\includegraphics[width=0.8\unitlength]{images/2d1}
+					\caption{\label{fig:2d1} The System Response for PLA for m = 1,L =2, g = 9.81, c = 0:5 and input force=15 
+ }
+				\end{figure}
+							
+
+
+
 		\end{enumerate}
 		
 		

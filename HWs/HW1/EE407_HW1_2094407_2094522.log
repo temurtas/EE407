@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  19 OCT 2018 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  20 OCT 2018 22:47
 entering extended mode
 **./EE407_HW1_2094407_2094522.tex
 (EE407_HW1_2094407_2094522.tex
@@ -951,27 +951,27 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 203.
+less on input line 204.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 204.
+less on input line 205.
 
 (EE407_HW1_2094407_2094522.aux)
 \openout1 = `EE407_HW1_2094407_2094522.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1024,15 +1024,15 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \makeMPintoPDFobject=\count192
 \everyMPtoPDFconversion=\toks51
 ) ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 207.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 207
+LaTeX Info: Redefining \celsius on input line 208.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 208
 .
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 207.
-Package gensymb Info: Using \Omega for \ohm on input line 207.
+LaTeX Info: Redefining \ohm on input line 208.
+Package gensymb Info: Using \Omega for \ohm on input line 208.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1053,13 +1053,13 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 207.
+ on input line 208.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 218.
+LaTeX Font Info:    Try loading font information for U+msa on input line 219.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 218.
+LaTeX Font Info:    Try loading font information for U+msb on input line 219.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1067,23 +1067,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <images/1a.png, id=4, 609.02531pt x 428.35031pt>
 File: images/1a.png Graphic file (type png)
  <use images/1a.png>
-Package pdftex.def Info: images/1a.png used on input line 250.
+Package pdftex.def Info: images/1a.png used on input line 251.
 (pdftex.def)             Requested size: 187.89912pt x 132.15321pt.
 
 <images/1b.png, id=6, 1410.77063pt x 228.855pt>
 File: images/1b.png Graphic file (type png)
  <use images/1b.png>
-Package pdftex.def Info: images/1b.png used on input line 257.
+Package pdftex.def Info: images/1b.png used on input line 258.
 (pdftex.def)             Requested size: 422.77661pt x 68.5802pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<images/1cy.png, id=7, 421.575pt x 298.11375pt>
-File: images/1cy.png Graphic file (type png)
- <use images/1cy.png>
-Package pdftex.def Info: images/1cy.png used on input line 266.
+<images/1cey.png, id=7, 421.575pt x 298.11375pt>
+File: images/1cey.png Graphic file (type png)
+ <use images/1cey.png>
+Package pdftex.def Info: images/1cey.png used on input line 267.
 (pdftex.def)             Requested size: 375.80542pt x 265.75253pt.
 
 
@@ -1100,21 +1100,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./images/1a.png> <./images/1b.png>] <images/1c1y.png, id=21, 421.575pt x 298.
-11375pt>
-File: images/1c1y.png Graphic file (type png)
+ <./images/1a.png> <./images/1b.png>] <images/1c1ey.png, id=21, 421.575pt x 298
+.11375pt>
+File: images/1c1ey.png Graphic file (type png)
 
-<use images/1c1y.png>
-Package pdftex.def Info: images/1c1y.png used on input line 276.
+<use images/1c1ey.png>
+Package pdftex.def Info: images/1c1ey.png used on input line 277.
 (pdftex.def)             Requested size: 375.80542pt x 265.75253pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/1c2y.png, id=22, 421.575pt x 298.11375pt>
-File: images/1c2y.png Graphic file (type png)
- <use images/1c2y.png>
-Package pdftex.def Info: images/1c2y.png used on input line 287.
+<images/1c2ey.png, id=22, 421.575pt x 298.11375pt>
+File: images/1c2ey.png Graphic file (type png)
+ <use images/1c2ey.png>
+Package pdftex.def Info: images/1c2ey.png used on input line 288.
 (pdftex.def)             Requested size: 375.80542pt x 265.75253pt.
 
 
@@ -1123,31 +1123,83 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./images/1cy.png (PNG copy)>]
+[2 <./images/1cey.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.85004pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./images/1c1y.png (PNG copy)> <./images/1c2y.png (PNG copy)>]
-<images/1c3y.png, id=29, 421.575pt x 298.11375pt>
-File: images/1c3y.png Graphic file (type png)
- <use images/1c3y.png>
-Package pdftex.def Info: images/1c3y.png used on input line 296.
+[3 <./images/1c1ey.png (PNG copy)> <./images/1c2ey.png (PNG copy)>]
+<images/1c3ey.png, id=29, 421.575pt x 298.11375pt>
+File: images/1c3ey.png Graphic file (type png)
+ <use images/1c3ey.png>
+Package pdftex.def Info: images/1c3ey.png used on input line 297.
 (pdftex.def)             Requested size: 375.80542pt x 265.75253pt.
 
 <images/1d1.png, id=30, 1410.0178pt x 579.66562pt>
 File: images/1d1.png Graphic file (type png)
  <use images/1d1.png>
-Package pdftex.def Info: images/1d1.png used on input line 306.
+Package pdftex.def Info: images/1d1.png used on input line 308.
 (pdftex.def)             Requested size: 375.80542pt x 154.49515pt.
 
-<images/1d2.png, id=31, 891.33pt x 399.74344pt>
-File: images/1d2.png Graphic file (type png)
- <use images/1d2.png>
-Package pdftex.def Info: images/1d2.png used on input line 313.
-(pdftex.def)             Requested size: 375.80542pt x 168.54375pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./images/1c3ey.png (PNG copy)>]
+<images/1d2ey.png, id=34, 735.49782pt x 392.21532pt>
+File: images/1d2ey.png Graphic file (type png)
+ <use images/1d2ey.png>
+Package pdftex.def Info: images/1d2ey.png used on input line 315.
+(pdftex.def)             Requested size: 375.80542pt x 200.41019pt.
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+[][][][]\OT1/cmr/m/n/12 don't 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+\OT1/cmr/m/n/12 know 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+[][][][]\OT1/cmr/m/n/12 don't 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+\OT1/cmr/m/n/12 know 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+[][][][]\OT1/cmr/m/n/12 don't 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+\OT1/cmr/m/n/12 know 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+[][][][]\OT1/cmr/m/n/12 don't 
+ []
+
+
+Overfull \hbox (1.0303pt too wide) in paragraph at lines 319--319
+\OT1/cmr/m/n/12 know 
+ []
+
+<images/1fey.png, id=35, 735.49782pt x 392.21532pt>
+File: images/1fey.png Graphic file (type png)
+ <use images/1fey.png>
+Package pdftex.def Info: images/1fey.png used on input line 330.
+(pdftex.def)             Requested size: 375.80542pt x 200.41019pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1155,24 +1207,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./images/1c3y.png (PNG copy)> <./images/1d1.png>]
-<images/1f.png, id=36, 891.33pt x 399.74344pt>
-File: images/1f.png Graphic file (type png)
- <use images/1f.png>
-Package pdftex.def Info: images/1f.png used on input line 328.
-(pdftex.def)             Requested size: 375.80542pt x 168.54375pt.
+[5 <./images/1d1.png> <./images/1d2ey.png (PNG copy)>]
+<images/1d22ey.png, id=40, 142.28156pt x 177.66376pt>
+File: images/1d22ey.png Graphic file (type png)
+ <use images/1d22ey.png>
+Package pdftex.def Info: images/1d22ey.png used on input line 339.
+(pdftex.def)             Requested size: 225.48038pt x 281.58127pt.
 
-<images/1d22.png, id=37, 1425.82687pt x 694.09312pt>
-File: images/1d22.png Graphic file (type png)
- <use images/1d22.png>
-Package pdftex.def Info: images/1d22.png used on input line 337.
-(pdftex.def)             Requested size: 225.48038pt x 109.75447pt.
+<images/1f2ey.png, id=41, 137.7647pt x 170.88844pt>
+File: images/1f2ey.png Graphic file (type png)
+ <use images/1f2ey.png>
+Package pdftex.def Info: images/1f2ey.png used on input line 344.
+(pdftex.def)             Requested size: 225.48038pt x 279.7217pt.
 
-<images/1f2.png, id=38, 1431.09656pt x 694.84593pt>
-File: images/1f2.png Graphic file (type png)
- <use images/1f2.png>
-Package pdftex.def Info: images/1f2.png used on input line 342.
-(pdftex.def)             Requested size: 225.48038pt x 109.47061pt.
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1180,34 +1230,85 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./images/1d2.png (PNG copy)> <./images/1f.png (PNG copy)>]
+[6 <./images/1fey.png (PNG copy)> <./images/1d22ey.png> <./images/1f2ey.png>]
+<images/2a.png, id=46, 1408.51219pt x 502.87875pt>
+File: images/2a.png Graphic file (type png)
+ <use images/2a.png>
+Package pdftex.def Info: images/2a.png used on input line 370.
+(pdftex.def)             Requested size: 375.80542pt x 134.16768pt.
+
+<images/2a2.png, id=47, 1411.52344pt x 624.08156pt>
+File: images/2a2.png Graphic file (type png)
+ <use images/2a2.png>
+Package pdftex.def Info: images/2a2.png used on input line 377.
+(pdftex.def)             Requested size: 375.80542pt x 166.15216pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 385.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 385.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.85004pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./images/1d22.png> <./images/1f2.png>] (EE407_HW1_2094407_2094522.aux) ) 
+[7 <./images/2a.png> <./images/2a2.png>]
+<images/2d2.png, id=55, 421.575pt x 298.11375pt>
+File: images/2d2.png Graphic file (type png)
+ <use images/2d2.png>
+Package pdftex.def Info: images/2d2.png used on input line 399.
+(pdftex.def)             Requested size: 375.80542pt x 265.75253pt.
+
+<images/2d1.png, id=56, 421.575pt x 298.11375pt>
+File: images/2d1.png Graphic file (type png)
+ <use images/2d1.png>
+Package pdftex.def Info: images/2d1.png used on input line 406.
+(pdftex.def)             Requested size: 375.80542pt x 265.75253pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./images/2d2.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./images/2d1.png (PNG copy)>] (EE407_HW1_2094407_2094522.aux) ) 
 Here is how much of TeX's memory you used:
- 29428 strings out of 493333
- 690727 string characters out of 3136576
- 895739 words of memory out of 3000000
- 32379 multiletter control sequences out of 15000+200000
+ 29553 strings out of 493333
+ 693408 string characters out of 3136576
+ 897739 words of memory out of 3000000
+ 32497 multiletter control sequences out of 15000+200000
  9546 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,96p,792b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on EE407_HW1_2094407_2094522.pdf (6 pages, 370821 bytes).
+ 62i,16n,96p,792b,959s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on EE407_HW1_2094407_2094522.pdf (9 pages, 450082 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
