@@ -261,51 +261,100 @@
 			
 			\item 	For the following subsections, the simulations are for the model when the applied force is a unit step function starting at t = 5 sec, i.e., $u(t-5)$.
 			
-				\begin{figure}[h]
-					\center
-					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/1cey}
-					\caption{\label{fig:1c} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 1N/m }
-				\end{figure}
+%				\begin{figure}[h]
+%					\center
+%					\setlength{\unitlength}{\textwidth} 
+%					\includegraphics[width=0.8\unitlength]{images/1cey}
+%					\caption{\label{fig:1c} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 1N/m }
+%				\end{figure}
 			
 				\begin{enumerate}
-					\item The spring force is proportional to the displacement of the mass,x with the direction of opposite to the F. Therefore, when the spring constant decreased, the displacement of x is increased. The figures are consistent with these, \textit{Figure~\ref{fig:1c1}} has small k value and it reaches far than \textit{Figure~\ref{fig:1c}}.		
+					\item The spring force $F_S~=~kx$ with the direction opposite to the input force $F$ is proportional to the "k" which is the spring force constant . Therefore, when the spring constant decreased, $F_{Net}$ is increased and the displacement $x$ is increased. The figures are consistent with these, \textit{Figure~\ref{fig:1c1}} has small $k$ value and it's final value is bigger than that of \textit{Figure~\ref{fig:1c1a}}.		
 			
-			\begin{figure}[h]
-				\center
-				\setlength{\unitlength}{\textwidth} 
-				\includegraphics[width=0.8\unitlength]{images/1c1ey}
-				\caption{\label{fig:1c1} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 0.2N/m }
-			\end{figure}
+				\begin{figure}[H]
+					\setlength{\unitlength}{\textwidth} 
+					\centering
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+  						\includegraphics[width=0.495\unitlength]{images/1cey}
+  						\caption{\label{fig:1c1a} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 1N/m }
+					\end{subfigure}%
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+						\includegraphics[width=0.495\unitlength]{images/1c1ey}
+  						\caption{\label{fig:1c1} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 0.2N/m}
+					\end{subfigure}
+					\caption{\label{fig:varyingk} The System Response for MSD with varying spring force constant   }
+				\end{figure}
+				
+%			\begin{figure}[h]
+%				\center
+%				\setlength{\unitlength}{\textwidth} 
+%				\includegraphics[width=0.8\unitlength]{images/1c1ey}
+%				\caption{\label{fig:1c1} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 0.2N/m }
+%			\end{figure}
 			
 			
 			
-			\item It is known that $F_{net}=ma=m\ddot{x} $ , then mass and acceleration that is related to position are oppositely proportional, so when mass increased, the output will be decreased. The \textit{Figure~\ref{fig:1c}} and \textit{Figure~\ref{fig:1c2}} are expected.
+			\item It is known that $F_{net}=ma=m\ddot{x} $ , then mass and acceleration that is related to position are oppositely proportional, so when mass increased, the rate of change in the velocity of the oscillation is decreased. The \textit{Figure~\ref{fig:1c2a}} and \textit{Figure~\ref{fig:1c2}} are shows the expected effect. While both systems expected to reach same final steady state value, the system in \textit{Figure~\ref{fig:1c2a}} oscillates quickly and reaches the steady state value in shorter time tant the system \textit{Figure~\ref{fig:1c2}}.
 			
-			\begin{figure}[H]
-				\center
-				\setlength{\unitlength}{\textwidth} 
-				\includegraphics[width=0.8\unitlength]{images/1c2ey}
-				\caption{\label{fig:1c2} The System Response for MSD as m = 10kg, b = 0.2Ns/m, k = 1N/m }
-			\end{figure}
+				\begin{figure}[H]
+					\setlength{\unitlength}{\textwidth} 
+					\centering
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+  						\includegraphics[width=0.495\unitlength]{images/1cey}
+  						\caption{\label{fig:1c2a} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 1N/m }
+					\end{subfigure}%
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+						\includegraphics[width=0.495\unitlength]{images/1c2ey}
+  						\caption{\label{fig:1c2} The System Response for MSD as m = 10kg, b = 0.2Ns/m, k = 1N/m }
+					\end{subfigure}
+					\caption{\label{fig:varyingm} The System Response for MSD with varying mass   }
+				\end{figure}
 			
-			\item  The viscous damping force is proportional to the velocity of the mass, $v=\dot{x}$ with the direction of opposite to the F. In this case, firstly this opposite direction is not so much because of the velocity is small and after some point this velocity value increases and effect the system with more opposite force. Therefore, \textit{Figure~\ref{fig:1c}} and \textit{Figure~\ref{fig:1c3}} are expected.
+%			\begin{figure}[H]
+%				\center
+%				\setlength{\unitlength}{\textwidth} 
+%				\includegraphics[width=0.8\unitlength]{images/1c2ey}
+%				\caption{\label{fig:1c2} The System Response for MSD as m = 10kg, b = 0.2Ns/m, k = 1N/m }
+%			\end{figure}
 			
-			\begin{figure}[H]
-				\center
-				\setlength{\unitlength}{\textwidth} 
-				\includegraphics[width=0.8\unitlength]{images/1c3ey}
-				\caption{\label{fig:1c3} The System Response for MSD as m = 1kg, b = 2Ns/m, k = 1N/m }
-			\end{figure}	
+			\item  The viscous damping force is proportional to the velocity of the mass, $v=\dot{x}$ with the direction of opposite to the F. In this case, firstly this opposite direction is not so much because of the velocity is small and after some point this velocity value increases and effect the system with more opposite force. Therefore, \textit{Figure~\ref{fig:1c3a}} and \textit{Figure~\ref{fig:1c3}} are expected.
+			
+			
+				\begin{figure}[H]
+					\setlength{\unitlength}{\textwidth} 
+					\centering
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+  						\includegraphics[width=0.495\unitlength]{images/1cey}
+  						\caption{\label{fig:1c3a} The System Response for MSD as m = 1kg, b = 0.2Ns/m, k = 1N/m }
+					\end{subfigure}%
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+						\includegraphics[width=0.495\unitlength]{images/1c3ey}
+  						\caption{\label{fig:1c3} The System Response for MSD as m = 1kg, b = 2Ns/m, k = 1N/m }
+					\end{subfigure}
+					\caption{\label{fig:varyingb} The System Response for MSD with varying viscous damping constant   }
+				\end{figure}
+			
+%			\begin{figure}[H]
+%				\center
+%				\setlength{\unitlength}{\textwidth} 
+%				\includegraphics[width=0.8\unitlength]{images/1c3ey}
+%				\caption{\label{fig:1c3} The System Response for MSD as m = 1kg, b = 2Ns/m, k = 1N/m }
+%			\end{figure}	
 			
 		\end{enumerate}			
 			
-			\item 	In this part, the system response of the MSD is observed when an input force are applied for certain time. We observe that the input force increases the output which is position as expected.
+			\item 	In this part, the system response of the MSD is observed when an input force are applied for certain time and stopped. We observe that the input force forces system to stabilize its position at non-zero steady-state value. When the input force is removed from system at $t=20~sec$, the steady-state value that the system tries to reach moves back again to zero. The simulink model constructed can be seen at \textit{Figure~\ref{fig:1d1}} and the the system response for this system with input change at $t=20~sec$ can be seen at \textit{Figure~\ref{fig:1d2}}.
 
 				\begin{figure}[H]
 					\center
 					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/1d1}
+					\includegraphics[width=0.8\unitlength]{images/1d1ey}
 					\caption{\label{fig:1d1} Simulink Model for the MSD with Varying Input Force }
 				\end{figure}
 				
@@ -316,13 +365,13 @@
 					\caption{\label{fig:1d2} The System Response for MSD as the Input Changes at t=20 s }
 				\end{figure}
 				
-			\item 	\todo{don't know really}
+			\item 	Time differences between successive data points seems a varying behaviour in simulation results in step d. This behaviour results with a simulation result that is not as smooth as expected.
 				
 				
 				
 			
 			
-			\item 	The difference between simulation usnig fixed step and varying step can be clearly seen at \textit{Figure~\ref{fig:varyfixed}}. The simulation result looks smoother when the fixed step is used.
+			\item 	As the fixed step is used, the system response can be seen at \textit{Figure~\ref{fig:1f}}. The difference in simulation results with using fixed step option and with using varying step opt,on can be clearly seen at \textit{Figure~\ref{fig:varyfixed}}. The simulation result looks smoother when the fixed step option is used.
 			
 				\begin{figure}[H]
 					\center
@@ -350,19 +399,29 @@
 		\end{enumerate}\-\\
 	
 	
-	\item The system can be modelled mathematically as
+	\item We will analyse the system shown in the \textit{Figure~\ref{fig:2}}.
+				\begin{figure}[H]
+					\center
+					\setlength{\unitlength}{\textwidth} 
+					\includegraphics[width=0.4\unitlength]{images/2}
+					\caption{\label{fig:2} Propeller Levitated Arm  System }
+				\end{figure}	
+				
+	
+	The system can be modelled mathematically as
 
 		$$	mL^2\ddot{\theta}=-c\dot{\theta}-mgLsin(\theta)+u	$$	
 	
-	where u is the input and it can be transferred to Laplace domain in order to put it in a block diagram for as 
+	where $\theta$ is angular position of the arm, $m$ is the total mass of the propeller and DC motor, $L$ is length of the arm, $c$ is viscous damping coefficient, $g$ is gravitational acceleration and $u$ is thrust produced by the propeller.% and it can be transferred to Laplace domain in order to put it in a block diagram for as 
 	
-	$$	mL^2s^2\theta=-cs\theta-mgLsin(\theta)+u	$$
+%	$$	mL^2s^2\theta=-cs\theta-mgLsin(\theta)+u	$$
 
-	assuming that $ \mathcal{L}\{mgLsin(\theta)\}~=~mgLsin(\theta)	$ around certain $\theta$.
+%	assuming that $ \mathcal{L}\{mgLsin(\theta)\}~=~mgLsin(\theta)	$ around certain $\theta$.
 	
+				
 	
 		\begin{enumerate}
-			\item Simulink Model for the Propeller Levitated Arm can be seen at \textit{Figure~\ref{fig:2a}} and its more compact version can be seen at \textit{Figure~\ref{fig:2a2}}.
+			\item Simulink Model for the Propeller Levitated Arm can be seen at \textit{Figure~\ref{fig:2a}} and its more compact version can be seen at \textit{Figure~\ref{fig:2a2}}.			
 			
 				\begin{figure}[H]
 					\center
@@ -380,34 +439,53 @@
 
 			
 			\-\\
-			\item  
+			\item  X, Y and Z represent the followings:
 				\begin{itemize}
 					\item X represents $\ddot{\theta}$ 
 					\item Y represents $\dot{\theta}$ and 
 					\item Z represents $\theta$	
 				\end{itemize}							
 			
-			\item Around $\theta$ values that satisfies
-				$$	\mathcal{L}\{mgLsin(\theta)\}~=~mgLsin(\theta)	$$	
+			\item This model is valid for all values of the state vector. Number of the state variable and independent row number are equal so the system is consistent with the real dynamics of the system.
+
+			
+			%Around $\theta$ values that satisfies
+				%$$	\mathcal{L}\{mgLsin(\theta)\}~=~mgLsin(\theta)	$$	
+				
 			\item Simulation results for the system as $F~=~14Nm$ and as $15Nm$ can be seen at \textit{Figures~\ref{fig:2d2} and \ref{fig:2d1}} respectively.
 			
-			\todo{why}
+			The slight difference in the thrust results in extremely large change in the system because the system is unstable. When the input force reaches some point, it will not stabilize.
 			
-				\begin{figure}[H]
-					\center
-					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/2d2}
-					\caption{\label{fig:2d2} The System Response for PLA for m = 1,L =2, g = 9.81, c = 0:5 and input force=14}
-				\end{figure}
+%				\begin{figure}[H]
+%					\center
+%					\setlength{\unitlength}{\textwidth} 
+%					\includegraphics[width=0.8\unitlength]{images/2d2}
+%					\caption{\label{fig:2d2} The System Response for PLA for m = 1,L =2, g = 9.81, c = 0:5 and input force=14}
+%				\end{figure}
+				
+%				\begin{figure}[H]
+%					\center
+%					\setlength{\unitlength}{\textwidth} 
+%					\includegraphics[width=0.8\unitlength]{images/2d1}
+%					\caption{\label{fig:2d1} The System Response for PLA for m = 1,L =2, g = 9.81, c = 0:5 and input force=15  }
+%				\end{figure}
+				
 				
 				\begin{figure}[H]
-					\center
 					\setlength{\unitlength}{\textwidth} 
-					\includegraphics[width=0.8\unitlength]{images/2d1}
-					\caption{\label{fig:2d1} The System Response for PLA for m = 1,L =2, g = 9.81, c = 0:5 and input force=15 
- }
-				\end{figure}
-							
+					\centering
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+  						\includegraphics[width=0.495\unitlength]{images/2d2}
+  						\caption{\label{fig:2d2} The System Response for PLA for m = 1,\\L =2, g = 9.81, c = 0:5 and input force=14 }
+					\end{subfigure}%
+					\begin{subfigure}{.5\textwidth}
+  						\centering
+						\includegraphics[width=0.495\unitlength]{images/2d1}
+  						\caption{\label{fig:2d1} \label{fig:2d1} The System Response for PLA for m = 1,\\L =2, g = 9.81, c = 0:5 and input force=15 }
+					\end{subfigure}
+					\caption{\label{fig:2d12}  The System Response for PLA with varying input   }
+				\end{figure}			
 
 
 
