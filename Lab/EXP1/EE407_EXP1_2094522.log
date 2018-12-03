@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  26 NOV 2018 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  1 DEC 2018 14:42
 entering extended mode
 **./EE407_EXP1_2094522.tex
 (EE407_EXP1_2094522.tex
@@ -1231,7 +1231,7 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 Here is how much of TeX's memory you used:
  30432 strings out of 493333
  700675 string characters out of 3136576
- 1039568 words of memory out of 3000000
+ 1039569 words of memory out of 3000000
  33381 multiletter control sequences out of 15000+200000
  10458 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1247,7 +1247,7 @@ s/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 y10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on EE407_EXP1_2094522.pdf (7 pages, 321478 bytes).
+Output written on EE407_EXP1_2094522.pdf (7 pages, 321360 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
